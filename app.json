@@ -2,6 +2,6 @@
     "expo": {
       "name": "My Vite Project",
       "slug": "my-vite-project",
-      "main": "./src/main.jsx"
+      "main": "./App.js"
     }
   }
