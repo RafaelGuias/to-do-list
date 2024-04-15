@@ -14,5 +14,8 @@ const DATA=JSON.parse(localStorage.getItem('tasks')) || []
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App tasks={DATA} />
+    <App />
+
   </React.StrictMode>,
+  document.getElementById('root')
 )
